@@ -45,7 +45,7 @@ const Hero = () => {
                 width: '100%',
                 height: '100%',
                 ease: 'power1.inOut',
-                onStart: () => nextVideoRef.current.play(),
+                // onStart: () => nextVideoRef.current.play(),
             })
 
             gsap.from('#current-video', {
@@ -118,7 +118,7 @@ const Hero = () => {
                 />
                 <video
                   src={getVideoSrc(currentIndex === totalVideos - 1? 1 : currentIndex)}
-                  autoPlay
+                //   autoPlay
                   loop
                   muted
                   className="absolute left-0 top-0 size-full object-cover object-center"
