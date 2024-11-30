@@ -32,7 +32,12 @@ const About = () => {
     <div className="min-h-screen w-screen">
         <div className="relative flex flex-col items-center mb-8 mt-36 gap-5">
             <h1 className="font-general text-sm uppercase md:text-[10px]"> Welcome to Zentry</h1>
-            <AnimatedTitle/>
+
+            <AnimatedTitle 
+            title="Disc<b>o</b>ver the world's <br/> l<b>a</b>rgest shared adventure"
+             containerClass="mt-5 !text-black text-center"
+             />
+             
             <div className="about-subtext">
                 <p>The Game of Games begins-your life, now an expic MMORPG</p>
                 <p>
