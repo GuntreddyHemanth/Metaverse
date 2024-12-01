@@ -1,5 +1,5 @@
 
-import { FaDiscord, FaTwitter, FaYoutube, FaMedium, FaGithub, FaLinkedin, FaVoicemail } from "react-icons/fa";
+import {FaTwitter, FaMedium, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const socialLinks = [
   { href: "https://twitter.com/GuntreddyH88382", icon: <FaTwitter /> },
