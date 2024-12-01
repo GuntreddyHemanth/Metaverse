@@ -45,7 +45,7 @@ const Hero = () => {
                 width: '100%',
                 height: '100%',
                 ease: 'power1.inOut',
-                // onStart: () => nextVideoRef.current.play(),
+                onStart: () => nextVideoRef.current.play(),
             })
 
             gsap.from('#current-video', {
